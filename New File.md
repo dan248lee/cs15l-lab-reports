@@ -26,4 +26,4 @@ either: 3 backsticks '''
 or: for indent spaces "    "
 '''
 
-(![image](https://user-images.githubusercontent.com/97646122/149253814-39d14825-a1d2-4b26-afed-6db23db5ce55.png))
+![image](https://user-images.githubusercontent.com/97646122/149254056-fca7456f-fa28-4a3a-8919-a4e7c37a3963.png)
