@@ -3,7 +3,7 @@
 ***Italic Bold***
 # Heading1
 ## Heading 2
-[Link](https://dan248lee.github.io/cs15l-lab-reports/New File)
+[Link](tetris.io)
 >blockquote
 
 - List 1
@@ -26,4 +26,4 @@ either: 3 backsticks '''
 or: for indent spaces "    "
 '''
 
-![Image](![image](https://user-images.githubusercontent.com/97646122/149252154-ea0e838b-f791-4359-96f5-4e0bfc26f216.png))
+(![image](https://user-images.githubusercontent.com/97646122/149253814-39d14825-a1d2-4b26-afed-6db23db5ce55.png))
