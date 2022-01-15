@@ -82,11 +82,40 @@ After login remotely using the steps above and type the command "ls"
 
 This should the files you imported into the ieng6 computer and can now run javac and java on the ieng6 computer!
 
+Your terminal should look something like this:
+![image](scpScreenshot.jpg)
 
-
+---
 ## **Setting an SSH Key**
 ---
 
+It is annoying to always type in your password after running scp, so lets skip this step by setting up an SSH Key!
 
+The steps to set an SSH Key:
+- run a command: *$ssh-keygen*
+- skip all the commands by pressing enter until you see the key's randomart image
+
+>If you are on a windows device, follow the extra ssh-add command here: [ssh-add extra step](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
+Your terminal should look like this:
+![image](sshkeygen.jpg)
+
+Next, follow the commands:
+> ssh cs15lwi22zz@ieng6.ucsd.edu
+
+> Enter Password (*now on server*)
+
+>mkdir .ssh
+
+>logout (*back on client*)
+
+>$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+> ^Use your username and the path you saw in the command above
+
+Congratulations! You should now be able to use ssh or scp without entering your password.
+
+---
 ## **Optimizing an SSH Key**
 ---
+
