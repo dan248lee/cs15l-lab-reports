@@ -119,10 +119,12 @@ Congratulations! You should now be able to use ssh or scp without entering your 
 ## **Optimizing Remote Running**
 ---
 
-Here are some tips to save some time when using using a remote server
+Use the techniques below to save some time when using a remote server
 - When using ssh, you can add a command at the end in quotations. This will run the command immediately after opening the server.
->$ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+>$ ssh cs15lwi22zz@ieng6.ucsd.edu "ls"
 
 - Semicolons can be used to run multiple commands on the same line
->$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+>$ scp WhereAmI.java WhereAmI.java; javac WhereAmI.java; java WhereAmI
 
+Example Screenshot:
+![image](optimizing.jpg)
