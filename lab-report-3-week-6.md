@@ -32,3 +32,13 @@
 >Then access your ssh with the code ssh ieng6
 >Congratulations!!!
 ---
+
+>Now using the shorter method of calling a remote engine, lets copy a file using scp
+
+![image](newFile.jpg)
+
+>Created a new file called newFile.java
+---
+
+![image](CopiedFile.jpg)
+>After copied the new file with the scp command, replacing the long username login with just ieng6
