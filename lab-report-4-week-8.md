@@ -5,29 +5,35 @@
 ---
 
 ### **Link:**
->[My personal MarkdownParse](https://github.com/ucsd-cse15l-w22/markdown-parse/tree/2pm)
+>[My personal MarkdownParse](https://github.com/dan248lee/markdown-parse)
 
 
 ### **Test 1** *(Snippet 1)*:
 >Expected Production:
+>> [url.com, `google.com, google.com, ucsd.edu]
 >
->Code in MarkdownParseTest.java
+>Code in MarkdownParseTest.java:
+>> ![image]()
 >
 >Corresponding Output:
 >>Results: 
 
 ### **Test 2** *(Snippet 2)*:
 >Expected Production:
+>> [a.com, a.com(()), example.com]
 >
 >Code in MarkdownParseTest.java
+>> ![image]()
 >
 >Corresponding Output:
 >>Results: 
 
 ### **Test 3** *(Snippet 3)*:
 >Expected Production:
+>>Error
 >
 >Code in MarkdownParseTest.java
+>> ![image]()
 >
 >Corresponding Output:
 >>Results: 
@@ -38,28 +44,34 @@
 ---
 
 ### Link:
->[Week 7 MarkdownParse](https://github.com/dan248lee/markdown-parse)
+>[Week 7 MarkdownParse](https://github.com/ucsd-cse15l-w22/markdown-parse/tree/2pm)
 
 ### **Test 1** (Snippet 1):
 >Expected Production:
+>> [url.com, `google.com, google.com, ucsd.edu]
 >
 >Code in MarkdownParseTest.java
+>> ![image]()
 >
 >Corresponding Output:
 >>Results: 
 
 ### **Test 2** (Snippet 2):
 >Expected Production:
+>> [a.com, a.com(()), example.com]
 >
 >Code in MarkdownParseTest.java
+>> ![image]()
 >
 >Corresponding Output:
 >>Results: 
 
 ### **Test 3** (Snippet 3):
 >Expected Production:
+>>Error
 >
 >Code in MarkdownParseTest.java
+>> ![image]()
 >
 >Corresponding Output:
 >>Results: 
