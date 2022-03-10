@@ -1,5 +1,11 @@
 # Week 8 Lab Report
 
+## **Test Created for the Two MarkdownParses**
+
+![image](markdownTests.jpg)
+
+---
+
 ## **Testing my own MarkdownParse**
 
 ---
@@ -7,20 +13,11 @@
 ### **Link:**
 >[My personal MarkdownParse](https://github.com/dan248lee/markdown-parse)
 
----
-## **Test Created for the Two MarkdownParses**
-
-
-
----
-
+## **Output of personal MarkdownParse**
 
 ### **Test 1** *(Snippet 1)*:
 >Expected Production:
 >> [google.com, google.com, ucsd.edu]
->
->Code in MarkdownParseTest.java:
->> ![image](Tester1.jpg)
 >
 >Corresponding Output:
 >>Results: Error. 
@@ -29,18 +26,12 @@
 >Expected Production:
 >> [a.com, a.com(()), example.com]
 >
->Code in MarkdownParseTest.java
->> ![image](Tester1.jpg)
->
 >Corresponding Output:
 >>Results: Error.
 
 ### **Test 3** *(Snippet 3)*:
 >Expected Production:
->> [https://www.twitter.com, https://ucsd.cse15l-w22.github.io/, https://cse.ucsd.edu/]
->
->Code in MarkdownParseTest.java
->> ![image](Tester1.jpg)
+>> [https://ucsd.cse15l-w22.github.io/]
 >
 >Corresponding Output:
 >>Results: Error. 
@@ -53,35 +44,32 @@
 ### Link:
 >[MarkdownParse reviewed](https://github.com/5ean-github/markdown-parse.git)
 
+---
+## **Output of Week 7 MarkdownParse**
+
+![image](errors.jpg)
+---
+
 ### **Test 1** (Snippet 1):
 >Expected Production:
 >> [google.com, google.com, ucsd.edu]
 >
->Code in MarkdownParseTest.java
->> ![image]()
->
 >Corresponding Output:
->>Results: 
+>>Results: Error.
 
 ### **Test 2** (Snippet 2):
 >Expected Production:
 >> [a.com, a.com(()), example.com]
 >
->Code in MarkdownParseTest.java
->> ![image]()
->
 >Corresponding Output:
->>Results: 
+>>Results: Error.
 
 ### **Test 3** (Snippet 3):
 >Expected Production:
->> [https://www.twitter.com, https://ucsd.cse15l-w22.github.io/, https://cse.ucsd.edu/]
->
->Code in MarkdownParseTest.java
->> ![image]()
+>> [https://ucsd.cse15l-w22.github.io/]
 >
 >Corresponding Output:
->>Results: 
+>>Results: Error.
 
 ---
 
