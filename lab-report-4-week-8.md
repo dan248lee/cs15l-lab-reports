@@ -91,4 +91,4 @@
 
 ### **3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses?**
 
-> Yes. You would just have to remove any of the blank spaces that appear inside the parenthesis.
+> Yes. You would just have to code to make sure a link wont be printed out if the bracket has line breaks.
