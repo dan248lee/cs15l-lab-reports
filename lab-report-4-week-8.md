@@ -13,7 +13,13 @@
 ### **Link:**
 >[My personal MarkdownParse](https://github.com/dan248lee/markdown-parse)
 
+---
 ## **Output of personal MarkdownParse**
+---
+
+![image](my.jpg)
+
+---
 
 ### **Test 1** *(Snippet 1)*:
 >Expected Production:
@@ -77,7 +83,7 @@
 
 ### **1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks?**
 
-> No. Code would be required for the program to ignore any brackets are parenthesis inside the brackets when naming the link. Then more coding would be required on ignoring backticks that may appear in the code.
+> Yes. You would just need to code that the link is only valid if there are two backticks in the brackets. If there is not two then it will not be a valid link. You also have to make sure to remove backticks if inside the link.
 
 ### **2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets?**
 
@@ -85,4 +91,4 @@
 
 ### **3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses?**
 
-> Yes. Since the program runs by searching for the next parenthesis or bracket, it would essentially ignore the new lines that are created if the readFile() method does not alter the text in any siginifcant way. Then, code would only have to be dedicated on fixing the missing parenthesis which would take <10 lines of code.
+> Yes. You would just have to remove any of the blank spaces that appear inside the parenthesis.
